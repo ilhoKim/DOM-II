@@ -7,7 +7,6 @@ const grayBlock = document.querySelector('.block--gray');
 const rocket = (event) => {
   event.stopPropagation();
   event.target.style.order = "-5";
-  // event.target.style.backgroundColor = 'red';
 }
 
 redBlock.addEventListener('click', rocket);
